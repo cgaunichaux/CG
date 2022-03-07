@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Information</title>
+  </head>
+  <body>
+    <h1>Information sheet</h1>
+    <ol>
+
+
+<!-- NOTE: How to build a form -->
+<form  action="mailto:cgaunichaux@gmail.com" method="post" enctype="text/plain"><!-- NOTE: action let us know where it takes us to --> <!-- NOTE: I changed it to my email by first typing mailto:-->
+<strong>
+  <label for="">Your name:</label>
+  <input type="text" name="yourName" value=""><br>
+  <label>Date of Birth</label>
+  <input type="date" name="yourDate" value=""><br>
+  <label>Your Email:</label>
+  <input type="email" name="yourEmail" value=""><br>
+  <input type="file"><br><!-- NOTE: You have to erase name and value to get this to work correctly with a button feature. -->
+  <label>Your Message:</label><br>
+  <textarea name="yourMessage" rows="10" cols="30"></textarea><!-- NOTE: rows determined how tall col determined how wide  -->
+  <br>
+  <input type="submit"><!-- NOTE: must removed value the button doesn't show up accurately. -->
+  </strong>
+</form>
+
+
+  </body>
+</html>
